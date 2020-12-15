@@ -1,0 +1,19 @@
+public class SubInt extends SuperC{
+	 
+    protected int i;
+    
+    public SubInt(String s, int a)
+    {
+        super(s);
+        i = a;
+    }
+    
+    @Override
+    public void print()
+    {
+        System.out.println(this.getClass().getSimpleName() + "\n" +
+                "s = \"" + text + "\"" + "\n" +
+                "i = " + i);
+    }
+    
+}
