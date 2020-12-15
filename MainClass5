@@ -1,0 +1,22 @@
+public class MainClass5 {
+    
+    public static void main(String[] args)
+    {
+        SuperC sup = new SuperC("A New-Year tree was born in the forest");
+        sup.print();
+        System.out.println();
+        
+        SubInt subI = new SubInt("SubInt object", 10);
+        subI.print();
+        System.out.println();
+        
+        SubChar subC = new SubChar("SubChar object", '%');
+        subC.print();
+        System.out.println();
+        
+        SuperC supp = new SubInt("Hello, World!", 100);
+        supp.print();
+        System.out.println();
+    }
+    
+}
