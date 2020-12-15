@@ -1,0 +1,20 @@
+public class SubChar extends SuperC{
+	  
+    protected char c;
+    
+    public SubChar(String s, char ch)
+    {
+        super(s);
+        c = ch;
+    }
+    
+    @Override
+    public void print()
+    {
+        System.out.println(this.getClass().getSimpleName() + "\n" +
+                "s = \"" + text + "\"" + "\n" +
+                "c = '" + c + "'");
+    }
+    
+}
+
