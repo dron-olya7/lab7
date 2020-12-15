@@ -1,0 +1,27 @@
+public class Child3 extends Father3 {
+
+    
+    public String text;
+    
+    public Child3(int a, char ch, String s)
+    {
+        super(a, ch);
+        text = s;
+    }
+    
+    public void setFields(int a, char ch, String s)
+    {
+        super.setFields(a, ch); // i = a; c = ch;
+        text = s;
+    }
+    
+    public String toString()
+    {
+        return this.getClass().getSimpleName() + "\n" +
+                "i = " + i + "\n" +
+                "c = '" + c + "'" + "\n" +
+                "text = \"" + text + "\"";
+    }
+    
+}
+
