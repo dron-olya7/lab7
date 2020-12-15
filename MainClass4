@@ -1,0 +1,24 @@
+public class MainClass4 {
+
+    public static void main(String[] args)
+    {
+        Grand4 gr = new Grand4('8');
+        Grand4 grN = new Grand4(gr);
+        System.out.println(grN.c);
+        System.out.println();
+        
+        Parent4 p = new Parent4('+', "parent");
+        Parent4 pN = new Parent4(p);
+        System.out.println(pN.c);
+        System.out.println(pN.text);
+        System.out.println();
+        
+        Son4 s = new Son4('"', "son having parents", 298);
+        Son4 sN = new Son4(s);
+        System.out.println(sN.c);
+        System.out.println(sN.text);
+        System.out.println(sN.i);  
+        System.out.println();   
+    }
+    
+}
