@@ -1,0 +1,31 @@
+public class MainClass3 {
+	 
+	public static void main(String[] args)
+	    {
+	        GrandFather3 gr = new GrandFather3(5);
+	        System.out.println(gr);
+	        System.out.println();
+	        gr.setFields(500);
+	        System.out.println(gr);
+	        System.out.println();
+	        
+	        Father3 f = new Father3(0, '-');
+	        System.out.println(f);
+	        System.out.println();
+	        f.setFields(12, '*');
+	        System.out.println(f);
+	        System.out.println();
+	        
+	        Child3 cd = new Child3(8, 'a', "child has its parent");
+	        System.out.println(cd);
+	        System.out.println();
+	        cd.setFields(3);
+	        cd.setFields(2, 'b');
+	        cd.setFields(1, 'c', "non-empty string");
+	        System.out.println(cd);  
+	        System.out.println();   
+	    }
+	    
+	}
+
+
