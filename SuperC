@@ -1,0 +1,16 @@
+public class SuperC {
+	 
+    protected String text;
+    
+    public SuperC(String s)
+    {
+        text = s;
+    }
+    
+    public void print()
+    {
+        System.out.println(this.getClass().getSimpleName() + "\n" +
+                "s = \"" + text + "\"");
+    }
+    
+}
