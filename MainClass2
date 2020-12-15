@@ -1,0 +1,13 @@
+public class MainClass2 {
+	 
+		public static void main(String[] args)
+		    {
+		        SuperClassTest2 sup = new SuperClassTest2("Hello, world!");
+		        System.out.println(sup.getTextLength());
+		        
+		        SubClassTest2 sub = new SubClassTest2(11, "These mountains are high");
+		        sub.setFields(12, "Low");
+		        System.out.println(sub.getTextLength());
+		    }
+		    
+		}
