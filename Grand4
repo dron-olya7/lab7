@@ -1,0 +1,15 @@
+public class Grand4 {
+
+    public char c;
+    
+    public Grand4(char ch)
+    {
+        c = ch;
+    }
+    
+    public Grand4(Grand4 gr)
+    {
+        c = gr.c;
+    }
+    
+}
