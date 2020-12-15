@@ -1,0 +1,18 @@
+public class Parent4 extends Grand4{
+	
+	public String text;
+ 
+    public Parent4(char ch, String s)
+    {
+        super(ch);
+        text = s;
+    }
+    
+    public Parent4(Parent4 p)
+    {
+        super(p);
+        text = p.text;
+    }
+    
+}
+
