@@ -1,0 +1,25 @@
+public class Father3 extends GrandFather3{
+
+    public char c;
+    
+    public Father3(int a, char ch)
+    {
+        super(a);
+        c = ch;
+    }
+    
+    public void setFields(int a, char ch)
+    {
+        super.setFields(a);  // i = a;
+        c = ch;
+    }
+       
+    @Override
+    public String toString()
+    {
+        return this.getClass().getSimpleName() + "\n" +
+                "i = " + i + "\n" +
+                "c = '" + c + "'";
+    }
+    
+}
