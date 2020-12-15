@@ -1,0 +1,43 @@
+public class SubClassTest2 extends SuperClassTest2{
+
+	public int i;
+    
+    public SubClassTest2(int a, String s)
+    {
+        super(s);
+        i = a;
+    }
+    
+    @Override
+    public void setFields()
+    
+    {
+    	//без параметров
+        super.setFields();
+        i = 0;
+    }
+    
+    @Override
+    
+    public void setFields(String s)
+    {
+    	//с текстовым параметром
+        super.setFields(s);
+        i = 0;
+    }
+    
+    public void setFields(int a)
+    {
+    	//c целочисленным
+        super.setFields();
+        i = a;
+    }
+    
+    public void setFields(int a, String s)
+    {
+    	//с тектовым и целочисленным
+        super.setFields(s);
+        i = a;
+    }
+    
+}
