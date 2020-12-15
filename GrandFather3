@@ -1,0 +1,22 @@
+public class GrandFather3 {
+    
+    public int i;
+    
+    public GrandFather3(int a)
+    {
+        i = a;
+    }
+    
+    public void setFields(int a)
+    {
+        i = a;
+    }
+    
+    @Override
+    public String toString()
+    {
+        return getClass().getSimpleName() + "\n" +
+                "i = " + i;
+    }
+    
+}
