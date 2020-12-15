@@ -1,0 +1,17 @@
+public class Son4 extends Parent4{
+
+    public int i;
+    
+    public Son4(char ch, String s, int a)
+    {
+        super(ch, s);
+        i = a;
+    }
+    
+    public Son4(Son4 sn)
+    {
+        super(sn);
+        i = sn.i;
+    }
+    
+}
